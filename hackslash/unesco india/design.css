@@ -1,0 +1,173 @@
+
+#container{
+    background-color: rgba(0, 0, 0, 0.806);
+    margin-top: 10px;
+}
+#header{
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.806); */
+    /* padding: 20px 20px 20px 20px; */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 63px;
+    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+#footer{
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.806); */
+    /* padding: 20px 20px 20px 20px; */
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 63px;
+    margin: auto;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 30px;
+}
+#logo{
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+.card1 {
+    margin: 5px;
+    margin-top: 10px;
+    width: 300px;
+    height: 280px;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: aliceblue;
+  }
+  
+  .card1 * {
+    transition: 0.3s ease all;
+
+  }
+  
+  .card1 img {
+    margin: 0;
+    width: 300px;
+    height: 224px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .card1 h3 {
+    margin: 0;
+    padding: 12px 12px 48px;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .card1 .focus-content {
+    display: block;
+    padding: 8px 12px;
+    /* overflow: scroll; */
+  }
+  
+  .card1 p {
+    margin: 0;
+    line-height: 1.5;
+    /* overflow: auto; */
+  }
+  
+  .card1:hover img, .card1:focus-within img {
+    margin-top: -150px;
+    /* overflow-y: auto; */
+  }
+  
+  .card1:hover h3, .card1:focus-within h3 {
+    padding: 8px 12px 0;
+  }
+.cardholder{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.footcontainer{
+    background: -moz-linear-gradient(top, #fff 0%, #d5d6db 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 3px;
+    /* padding-left: 5%; */
+    /* justify-content: center;
+    align-items: center; */
+}
+.foot{
+  /* margin-left: 8%; */
+  font-family: "Archivo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  border: 1px solid black;
+  padding: 5px;
+}
+/* unvisited link */
+a:link {
+  color: rgb(0, 0, 0);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(0, 0, 0);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgba(46, 46, 230, 0.849);
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+}
+.inst-link:hover{
+  cursor: pointer;
+}
+.fb-link:hover{
+  cursor: pointer;
+}
+#div1, #div2,#div3{
+  background-color: #fff;
+}
+#div2:hover{
+  border-color:grey;
+  border-width: 3px;
+  border-radius: 2px;
+  /* border-style: inset;  */
+}
+#info{
+  color: white;
+  margin-top: 4.1%;
+  background-image: linear-gradient(to top, #00c6fb 0%, #005bea 100%);
+  font-size: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 50px;}
+
+@keyframes start{
+  from{
+    padding-top: 60px;
+    opacity: 0.2;
+  }
+  to{
+padding-top: 0;
+opacity: 1;
+  }
+}
+.parentinf{
+  animation-name: start;
+  animation-duration: 1.5s;
+
+}
